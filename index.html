@@ -7,17 +7,22 @@
     <script defer src="main.js"></script>
   </head>
   <body>
-    <h1>Really Awesome Music Site</h1>
-    <form class="" action="index.html" method="post">
+    <header>
+      <h1>Really Awesome Music Site</h1>
+    </header>
+    <section class="player">
+      <audio class="music-player" controls="controls" src=""></audio>
+    </section>
+    <form class="search-form" action="index.html" method="post">
       <input type="text" name="" value="">
       <button type="submit" name="button">Search</button>
     </form>
     <section>
-      <h3>Search Results</h3>
-      <section>
+      <h3 id="search-title">Search Results</h3>
+      <section class="results">
         <img src="">
-        <span>sstt</span>
-        <span>bbnn</span>
+        <p>sstt</p>
+        <p>bbnn</p>
       </section>
     </section>
   </body>

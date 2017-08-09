@@ -10,20 +10,18 @@
     <header>
       <h1>Really Awesome Music Site</h1>
     </header>
+    <h2>Now Playing:</h2>
+    <span id="nowPlaying"></span>
     <section class="player">
-      <audio class="music-player" controls="controls" src=""></audio>
+      <audio id="musicPlayer" controls="controls" src=""></audio>
     </section>
     <form class="search-form" action="index.html" method="post">
-      <input type="text" name="" value="">
-      <button type="submit" name="button">Search</button>
+      <input type="text" name="" value="" id="textInput">
+      <button type="submit" name="button" id="submitButton">Search</button>
     </form>
-    <section>
-      <h3 id="search-title">Search Results</h3>
-      <section class="results">
-        <img src="">
-        <p>sstt</p>
-        <p>bbnn</p>
-      </section>
+    <h2>Results:</h2>
+    <section id="results">
+
     </section>
   </body>
 </html>
